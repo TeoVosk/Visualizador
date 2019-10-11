@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <button id="clear"> Clear </button>
+        <button id="player">Player</button>
+        <button id="goal">Goal</button>
+        <button id="wall">Wall</button>
+        <button id="erase">Erase</button>
+        <button id="generate">Generate</button>
+        <button id="go">Follow</button>
+        <input type="text" name="tiempo" id="tiempo", placeholder="Tiempo por paso(ms)" value="10">
+        <select>
+            <option value="0">Depth First Search</option>
+            <option value="1">Breadth First Search</option>
+            <option value="2">Busqueda Direccionada</option>
+        </select>
+    </nav>
+
+    <br>
+    <table id="table_m">
+        <tbody id="tbody_m">
+        </tbody>
+    </table>
+    <script src="app.js"></script>
+    <script src="dfs.js"></script>
+    <script src="maze.js"></script>
+    <!-- <script src="maze_gen.js"></script> -->
+</body>
+
+</html>

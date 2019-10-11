@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Roboto;
+}
+
+table {
+    border-spacing: 0px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+}
+
+tbody {
+    border-spacing: 0px;
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    /*transition: all 0.1s ease-out;*/
+}
+
+#div_m {
+    /*width: 175px;
+    height: 100px;*/
+    margin: auto;
+    display: flex;
+}
+
+nav {
+    height: 100px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 6px black, -3px 3px 6px black;
+}
+
+button {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    height: 50%;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
+
+button:hover {
+    color: lightblue;
+    background-color: rgb(72, 114, 240)
+}
+
+select {
+    color: white;
+    background-color: royalblue;
+    font-size: 20px;
+    width: 20%;
+    border: 1px solid;
+    border-color: black;
+    cursor: pointer;
+    height: 50%;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
+
+select:hover {
+    color: lightblue;
+    background-color: rgb(72, 114, 240)
+}
+
+input {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}

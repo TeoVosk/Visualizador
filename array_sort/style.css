@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-align: center
+}
+
+/*#circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: black;
+}*/
+
+tr{
+    background-color: blue;
+    width: 25px;
+    margin-left: 1px;
+    margin-right: 1px;
+    /*height: 500px;*/
+    /*background: linear-gradient(blue, white 50%)*/
+}
+
+#main{
+    display: flex;
+}
+
+nav {
+    height: 100px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 6px black, -3px 3px 6px black;
+    color: white;
+}
+
+button {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    height: 50%;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
+
+button:hover {
+    color: lightblue;
+    background-color: rgb(72, 114, 240)
+}
+
+select {
+    color: white;
+    background-color: royalblue;
+    font-size: 20px;
+    width: 20%;
+    border: 1px solid;
+    border-color: black;
+    cursor: pointer;
+    height: 50%;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
+
+select:hover {
+    color: lightblue;
+    background-color: rgb(72, 114, 240)
+}
+
+#tiempo {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+p{
+    height: 100%;
+    top: 40%;
+    transform: translate(0%, 40%);
+    vertical-align: middle
+}
+
+#slider{
+    height: 100%;
+    top: 40%;
+    transform: translate(0%, 40%);
+}
+
+.color{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+    display: table;
+    margin: 5px;
+    width: 25px;   
+    min-height: 50%;   
+    vertical-align: middle;
+    top: 50%;
+    transform: translate(0%, 50%);
+}
