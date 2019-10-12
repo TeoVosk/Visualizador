@@ -6,20 +6,11 @@
     text-align: center
 }
 
-/*#circle{
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    background-color: black;
-}*/
-
 tr{
     background-color: blue;
     width: 25px;
     margin-left: 1px;
     margin-right: 1px;
-    /*height: 500px;*/
-    /*background: linear-gradient(blue, white 50%)*/
 }
 
 #main{
@@ -104,8 +95,13 @@ p{
     display: table;
     margin: 5px;
     width: 25px;   
-    min-height: 50%;   
+    min-height: 50%;
     vertical-align: middle;
     top: 50%;
     transform: translate(0%, 50%);
+}
+
+.color span{
+    display: table-cell;
+    vertical-align: middle;
 }

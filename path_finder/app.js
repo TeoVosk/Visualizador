@@ -98,12 +98,14 @@ function set_cells(e, n, i, j, b_actual) {
                 break;
         }
 
+        console.log(b_actual)
+        console.log(["Erase", "Wall"].includes(b_actual))
         if (["Erase", "Wall"].includes(b_actual)) {
-            e.target.className = b_actual;
             if (e.target.className === "Player")
                 player = 0;
             else if (e.target.className === "Goal")
                 goal = 0;
+            e.target.className = b_actual;
         }
 
     }
