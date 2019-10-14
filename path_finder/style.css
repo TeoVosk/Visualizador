@@ -36,8 +36,6 @@ td {
 }
 
 #div_m {
-    /*width: 175px;
-    height: 100px;*/
     margin: auto;
     display: flex;
 }
@@ -48,6 +46,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     box-shadow: 3px 3px 6px black, -3px 3px 6px black;
+    align-items: center;
 }
 
 button {
@@ -60,8 +59,6 @@ button {
     padding: 5px;
     cursor: pointer;
     height: 50%;
-    top: 50%;
-    transform: translate(0%, 50%);
 }
 
 button:hover {
@@ -78,8 +75,6 @@ select {
     border-color: black;
     cursor: pointer;
     height: 50%;
-    top: 50%;
-    transform: translate(0%, 50%);
 }
 
 select:hover {

@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
 async function b_sort(arr) {
 
     const c1 = document.querySelector("#c1");
-    c1.innerText = "Desplazandose"
+    c1.innerText = "Desplazandose";
 
     if (arr.length <= 1)
         return;

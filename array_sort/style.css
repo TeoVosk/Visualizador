@@ -24,6 +24,7 @@ nav {
     justify-content: space-evenly;
     box-shadow: 3px 3px 6px black, -3px 3px 6px black;
     color: white;
+    align-items: center;
 }
 
 button {
@@ -35,9 +36,6 @@ button {
     font-size: 20px;
     padding: 5px;
     cursor: pointer;
-    height: 50%;
-    top: 50%;
-    transform: translate(0%, 50%);
 }
 
 button:hover {
@@ -53,9 +51,6 @@ select {
     border: 1px solid;
     border-color: black;
     cursor: pointer;
-    height: 50%;
-    top: 50%;
-    transform: translate(0%, 50%);
 }
 
 select:hover {
@@ -74,17 +69,9 @@ select:hover {
     cursor: pointer;
 }
 
-p{
-    height: 100%;
-    top: 40%;
-    transform: translate(0%, 40%);
-    vertical-align: middle
-}
-
-#slider{
-    height: 100%;
-    top: 40%;
-    transform: translate(0%, 40%);
+#color-container{
+    display: flex;
+    align-items: center;
 }
 
 .color{
@@ -94,11 +81,7 @@ p{
     font-size: 20px;
     display: table;
     margin: 5px;
-    width: 25px;   
-    min-height: 50%;
-    vertical-align: middle;
-    top: 50%;
-    transform: translate(0%, 50%);
+    min-height: 50px;
 }
 
 .color span{
